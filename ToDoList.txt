@@ -1,3 +1,9 @@
 1. Responsive nav bar that shows a hamberger menu when the screen gets small
 2. build the drop down menu that shows the nav links verticle instead of horizontal
 3. make sure the links change the page url and when you click the link from the horizontal menu the menu disapears
+
+
+flex notes
+justify-content: horizontal alignment
+align-items:verticle allignment
+align-content: verticle alligment of multiple rows

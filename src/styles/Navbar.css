@@ -1,15 +1,32 @@
 .hidden{
     display:none;
 }
-
+.toggleButton{
+    display:none;
+}
 .navbar{
     background: violet;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 @media only screen and (max-width: 600px){
     .navbar{
-        background: red;
+        justify-content:flex-start;
     }
-    .navbar > .toggleButton{
+    .toggleButton{
+        display:flex;
+    }
+    #closed{
+        justify-content: center;
+    }
+    #closed .navLink{
         display:none;
+    }
+    #open{
+        align-items: center;
+        flex-direction:column;
+        height:100vh;
     }
 }
